@@ -9,7 +9,7 @@ public class Métodos {
     int w;
 
     /**
-     * Realiza una suma con los números que le hemos dado a j y m
+     * Realiza una suma mediante el método suma con los números que le hemos dado a j y m en el método de la clase prin.
      * @param j va a ser un parametro de tipo int
      * @param m va a ser otro parámetro de tipo int
      */
@@ -17,7 +17,7 @@ public class Métodos {
         i=suma(j,m);
     }
     /**
-     * Realiza una suma con el número que le hemos dado a j, ya que en este caso solo hay un parámetro
+     * Realiza una suma mediante el método suma con el número que le hemos dado a j en el método de la clase prin, ya que en este caso solo hay un parámetro
      * @param j va a ser un parámetro de tipo int
      */
     public Métodos(int j) {
@@ -29,6 +29,12 @@ public class Métodos {
     public Métodos() {
         w=-1;
     }
+    /**
+     * Este método realiza una suma.
+     * @param x es el primer valor.
+     * @param x1 es el segundo valor.
+     * @return nos devuelve la suma.
+     */
     public int suma(int x, int x1) {
       return x + x1;
     }
