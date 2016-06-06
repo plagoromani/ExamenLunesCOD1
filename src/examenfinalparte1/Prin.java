@@ -1,5 +1,4 @@
 package examenfinalparte1;
-import java.io.IOException;
 /**
  *
  * @author Pablite5
@@ -10,7 +9,7 @@ public class Prin {
 /**
  * En esta clase, que es la main se llaman a los métodos de la clase Métodos.
  * @param args
- * @throws IOException 
+ *
  */
     
     public static void main(String[] args){
