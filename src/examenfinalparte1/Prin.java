@@ -15,23 +15,24 @@ public class Prin {
     public static void main(String[] args){
 
         /**
-         * Creamos el objeto métodos y le damos los valores de j y de m.
+         * Creamos el objeto métodos.
          */
-        Métodos obj = new Métodos(10,20);
+        Métodos obj = new Métodos();
 
      /**
-      * Esta es la primera operación, como es el metodo i la suma va a ser de los dos parámetros, en este caso j=10 y m=20 y se muestra por pantalla el resultado
+      * Esta es la primera operación, como es el metodo SumaDosVariables la suma va a ser de los dos parámetros, en este caso j=10 y m=20 y se muestra por pantalla el resultado
       */
-        int operacion1 = obj.i;
+       
+        int operacion1 =obj.sumaDosVariables(10, 20);
         System.out.println("Es: " + operacion1);
      /**
-      * Esta es la segunda operación, como es el método z va a utilizar solo el parametro j, en este caso j=10, que es el valor que le damos al principio, y seguidamente lo mostramos por pantalla
+      * Esta es la segunda operación, como es el método sumaMismaVariable va a utilizar solo el parametro j, en este caso j=10, que es el valor que le damos nosotros, y seguidamente lo mostramos por pantalla
       */
-         int operacion2 = obj.z;
+         int operacion2 = obj.sumaMismaVariable(10);
          System.out.println("Es: " + operacion2);
      /**
-      * Esta es la tercera operacion, como es el método w va a valer siempre -1 ya que le hemos dado el valor en el propio método y siempre va a tener ese valor. Luego lo mostramos por pantalla.
+      * Esta es la tercera operacion, como es el método sumasiempreigual va a valer siempre -1 ya que le hemos dado el valor en el propio método y siempre va a tener ese valor. Luego lo mostramos por pantalla.
       */
      
-        int operacion3 = obj.w;
+        int operacion3 = obj.sumaSiempreIgual();
         System.out.println("Es: " + operacion3);}}
